@@ -65,7 +65,7 @@ class API {
 		if ($cursor != null) {
 			
 		  $escaped_cursor = urlencode($cursor);
-		  $url = $url . "&page%5Bcursor%5D={$escaped_cursor}";
+		  $url .= "&page%5Bcursor%5D={$escaped_cursor}";
 		  
 		}
 		
